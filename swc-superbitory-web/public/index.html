@@ -5,10 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -25,6 +22,67 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      table {
+        font-size: 16px;
+        border-collapse: separate;
+        padding: 10px;
+      }
+      th {
+        text-align: left;
+      }
+      td {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        min-width: 150px;
+      }
+      .locationsTableContainer {
+        min-height: 450px;
+        display: block;
+        background-color: #111;
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      .locationsTableContainer .locationsTable {
+        width: 100%;
+        background-color: #222;
+      }
+
+      .locationsTableContainer thead tr {
+        border-bottom: 2px solid #00bcd4;
+      }
+
+      .locationsTableContainer tr {
+        height: 50px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .locationsTableContainer td,
+      .locationsTableContainer th {
+        padding-left: 10px;
+      }
+
+      .locationsTableContainer th {
+        text-align: left;
+      }
+
+      .locationsTableContainer th.description {
+        width: 20%;
+      }
+
+      .locationsTableContainer th.street {
+        width: 40%;
+      }
+
+      .locationsTableContainer th.city {
+        width: 15%;
+      }
+
+      .locationsTableContainer th.buttons {
+        width: 25%;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

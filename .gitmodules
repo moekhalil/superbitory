@@ -1,0 +1,3 @@
+[submodule "swc-order-web"]
+	path = swc-order-web
+	url = git@github.com:moekhalil/swc-order-web.git
